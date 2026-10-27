@@ -1,0 +1,21 @@
+class Employee:
+    a=2
+
+class programmer(Employee):
+    b=4
+
+class Manager(programmer):
+    c=6
+
+
+
+o=Employee()
+print(o.a)
+
+o=programmer()
+print(o.b)
+
+
+
+o=Manager()
+print(o.c)

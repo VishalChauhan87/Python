@@ -1,0 +1,28 @@
+class Employee:
+    def __init__(self):
+        print("constructor of Employee")
+    a=2
+
+class programmer(Employee):
+    def __init__(self):
+            print("constructor of programmer")
+    b=4
+
+class Manager(programmer):
+    def __init__(self):
+            super().__init__()
+            print("constructor of Manager")
+    c=6
+
+
+
+#o=Employee()
+#print(o.a)
+
+#o=programmer()
+#print(o.b)
+
+
+
+o=Manager()
+print(o.a,o.b,o.c)

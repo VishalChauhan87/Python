@@ -1,0 +1,23 @@
+class Employee:
+    Company="ITC"
+    name="vishal"
+    def show(self):
+        print(f"The name of the Employee is {self.name}, The name of company is {self.Company}")
+
+class Coder:
+    language="python"
+    def languageprint(self):
+        print(f"The language name is {self.language}")
+
+class programmer(Employee,Coder):
+    Company="ITC Infotech"
+    def showlanguage(self):
+        print(f"The name is {self.Company} and he is good with {self.language} language")
+
+
+a=Employee()
+b=programmer()
+
+b.show()
+b.languageprint()
+b.showlanguage()
