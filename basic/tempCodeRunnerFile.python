@@ -10,3 +10,12 @@ class Manager(programmer):
 
 
 o=Employee()
+print(o.a)
+
+o=programmer()
+print(o.b)
+
+
+
+o=Manager()
+print(o.c)
